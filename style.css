@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Start{
+    background: skyblue;
+    height: 50px;
+    width: 150px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 45%;
+    cursor: pointer;
+    }
+.quiz-container{
+    display: none;
+  width: max-content;
+  margin: 20px auto;
+    border: 2px solid gray;
+    width: 600px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.quizApp{
+    background:skyblue;
+    color: black;
+}
+
+.quizApp h1{
+    text-align: center;
+}
+
+.quistionScore{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.option{
+    border: 1px solid gray;
+    height: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.nextQuiz{
+    background: skyblue;
+    height: 40px;
+    width: 150px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+
+
+
+.scoreboard {
+    display: none;
+    width: max-content;
+    margin: 20px auto;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px 40px;
+  }
+  
+  #final-score {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  #restart-button {
+    background-color: skyblue;
+    color: black;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    cursor: pointer;
+  }
+  
